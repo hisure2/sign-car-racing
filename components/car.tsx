@@ -17,7 +17,8 @@ export function Car({ lane, laneWidth, size }: CarProps) {
         height: size,
       }}
     >
-      <div className="w-full h-full flex items-center justify-center bg-red-600 rounded-md shadow-lg">
+      <div className="w-full h-full flex items-center justify-center bg-pink-500 rounded-md shadow-lg"
+>
         <CarFront className="text-white" size={30} />
       </div>
     </div>
